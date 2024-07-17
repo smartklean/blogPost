@@ -12,3 +12,13 @@ This Application was built with Laravel framework version 11 and mysql 8.0 as th
 
 This web API Enable Author to create Blogs Update and Delete blog and also give room for Author to create Post under a specific blog and publish
 whereas users can view the blog post comments uncomments, likes and unlike the posts as the case maybe.
+
+## How to setup the project
+
+1.Run git clone https://github.com/smartklean/blogPost.git
+2.Run composer install
+3.Run cp .env.example .env
+4.Run php artisan key:generate
+5.Run php artisan migrate
+6. Run php artisan db:seed
+7.Run php artisan serve
